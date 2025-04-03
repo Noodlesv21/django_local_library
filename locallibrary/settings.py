@@ -38,7 +38,13 @@ SECRET_KEY = "django-insecure-@w5iqx(&&_ky1+7kp1g76*kx7kxgwt$t-s^2hx4@(xi1l=gzn8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.ondigitalocean.app', 'rolandroy.me', 'www.rolandroy.me']
+ALLOWED_HOSTS = [
+    '.ondigitalocean.app',  # for deployment
+    'rolandroy.me',
+    'www.rolandroy.me',
+    '127.0.0.1',  # for local dev
+    'localhost',  # also good to include
+]
 
 
 # Application definition

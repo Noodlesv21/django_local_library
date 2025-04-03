@@ -42,6 +42,7 @@ ALLOWED_HOSTS = [
     '.ondigitalocean.app',  # for deployment
     'rolandroy.me',
     'www.rolandroy.me',
+    'library.rolandroy.me',
     '127.0.0.1',  # for local dev
     'localhost',  # also good to include
 ]
